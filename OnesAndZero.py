@@ -21,8 +21,9 @@ def binary_array_to_number(arr):
 
 
 import unittest
-class TestClass(unittest.TestCase):
 
+
+class TestClass(unittest.TestCase):
     def test_1(self):
         self.assertEqual(binary_array_to_number([0,0,0,1]), 1)
     def test_2(self):

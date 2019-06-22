@@ -38,8 +38,11 @@ def number(bus_stops):
 #best answer on codewars
 def number2(bus_stops):
     return sum(stop[0] - stop[1] for stop in bus_stops)
-    
+
+
 import unittest
+
+
 class TestKata(unittest.TestCase):
     def test_1(self):
         self.assertEqual(number2([[10,0],[3,5],[5,8]]),5)
